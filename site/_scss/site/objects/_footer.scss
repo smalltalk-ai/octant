@@ -1,3 +1,18 @@
+@mixin breakpoint($point) {
+  $small: 767px;
+  $medium: 1279px;
+  $extra-large: 1800px; // Up to 1800px
+  @if $point == extra-large {
+    @media only screen and (min-width : $large+1) { @content; }
+  }
+  @else if $point == medium {
+    @media only screen and (min-width: $small+1) and (max-width: $medium) { @content; }
+  }
+  @else if $point == small {
+    @media only screen and (max-width: $small) { @content; }
+  }
+}
+
 .site-footer {
   padding: 24px 0 34px 0;
   .social-links {
@@ -26,8 +41,7 @@
   }
   .copyright {
     font-size: 0.75rem; 
-    font-weight: $font-weight-light;
-    color: $footer-copyright;
+    display: inline;
   }
   .logo {
     max-width: 146px;
@@ -36,9 +50,27 @@
   }
   .vm-logo {
     font-size: .75rem;
+    color: #777;
     img {
       max-width: 75px;
       margin-left: 30px;
+    }
+  }
+  @include breakpoint(medium) {
+    .col-md-5, .col-md-7 {
+        max-width: unset !important;
+        flex: 0 0 100% !important;
+    }
+}
+  @include breakpoint(small) {
+    .text-center {
+        text-align: left !important;
+    }
+    .logo {
+        display: none;
+    }
+    .social-links li {
+        width: 23%;
     }
   }
 }

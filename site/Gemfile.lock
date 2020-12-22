@@ -73,6 +73,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   jekyll (~> 3.9.0)
@@ -88,4 +89,4 @@ DEPENDENCIES
   redcarpet (~> 3.5)
 
 BUNDLED WITH
-   2.1.4
+   2.2.2
