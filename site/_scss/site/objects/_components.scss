@@ -1,24 +1,10 @@
-@mixin breakpoint($point) {
-    $small: 767px;
-    $medium: 1279px;
-    $extra-large: 1800px; // Up to 1800px
-    @if $point == extra-large {
-      @media only screen and (min-width : $large+1) { @content; }
-    }
-    @else if $point == medium {
-      @media only screen and (min-width: $small+1) and (max-width: $medium) { @content; }
-    }
-    @else if $point == small {
-      @media only screen and (max-width: $small) { @content; }
-    }
-}
 .grid.three {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     row-gap: 20px;
     column-gap: 20px;
-    @include breakpoint(small) {
-        grid-template-columns: 1fr;
+    @include media-breakpoint-up(md) {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 .sub-page {
@@ -42,7 +28,7 @@
                 justify-content: center;
                 min-height: 140px;
                 img {
-                    max-width:100%;
+                    max-width: 100%;
                     &.podcast {
                         max-height: 100px;
                     }
@@ -104,6 +90,10 @@
 .post-single-hero {
     h1, h2, h3 {
         text-align: left;
+    }
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 2.25rem;
     }
 }
 .getting-started {
