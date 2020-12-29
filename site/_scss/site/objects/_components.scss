@@ -9,7 +9,7 @@
 }
 .sub-page {
     background-color: #fff;
-    h3 {
+    h2 {
         font-size: 22px;
         margin: 1.5rem 0;
     }
@@ -17,6 +17,9 @@
         margin-top: 3rem;
         font-weight: 600;
         font-size: 20px;
+    }
+    .embed-responsive {
+        margin-bottom: 1rem;
     }
     .grid {
         .col {
