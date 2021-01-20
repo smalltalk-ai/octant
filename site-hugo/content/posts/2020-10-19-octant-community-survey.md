@@ -2,10 +2,12 @@
 title: "Octant Community Survey"
 image: /img/posts/2020/10/19/community-survey-banner.png
 excerpt: We’ve launched the Octant Community Survey for you to share feedback about how you’re using Octant.
+author: Isha Bagha
 author_name: Isha Bagha
 author_avatar: /img/contributors/isha-bagha.jpg
 categories: ['kubernetes']
 tags: ['survey']
+date: 2020-10-19
 ---
 # Octant User Survey
 ## The Octant user survey is here! 

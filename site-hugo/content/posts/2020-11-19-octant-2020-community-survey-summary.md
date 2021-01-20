@@ -2,10 +2,12 @@
 title: "Octant 2020 Community Survey Results"
 image: /img/posts/2020/11/19/survey-results-banner.png
 excerpt: After launching our first Octant community survey, we want to share some of the insights we’ve gathered from your responses
+author: Isha Bagha
 author_name: Isha Bagha
 author_avatar: /img/contributors/isha-bagha.jpg
 categories: ['kubernetes']
 tags: ['survey']
+date: 2020-11-19
 ---
 
 Not too long ago, we set out to learn more about the Octant community. To do so, we shared the first [Octant Community survey](/octant-community-survey) and received 13 responses. It’s not a vast sample size, but we were able to find patterns on how Octant is used and how it could be improved. Here, we want to share our findings.

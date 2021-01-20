@@ -11,8 +11,6 @@ header {
         justify-content: space-between;
     }
     .desktop-links {
-        //float: right;
-        //margin: 15px 0px 0px 0px;
         padding-left: 0px;
     }
     a {
@@ -25,6 +23,10 @@ header {
     li img {
         vertical-align: bottom;
         margin-right: 10px;
+    }
+    img {
+        height: 45px;
+        width: auto;
     }
     .mobile {
        display: none;
