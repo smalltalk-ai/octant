@@ -1,6 +1,6 @@
 ---
 title: "Seeing is Believing: Octant Reveals the Objects Running in Kubernetes Clusters"
-image: /img/octant-logo.png
+image: /img/octant.svg
 excerpt: In a perfect world, you would deploy applications to clusters and nothing else would be a problem. In the Kubernetes world, it isn’t that simple yet.
 author: Bryan Liles
 # author_url: https://www.google.com
