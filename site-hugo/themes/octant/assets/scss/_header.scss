@@ -83,6 +83,7 @@ header {
             left: 0px;
             padding-bottom: 20px;
             display: none;
+            z-index: 1;
             .header-links {
                 margin: 0px 20px;
             }
@@ -96,6 +97,8 @@ header {
                 a {
                     font-size: 14px;
                     padding-right: 35px;
+                    margin-bottom: 20px;
+                    display: inline-block;
                     &:last-of-type {
                         padding-right: 0px;
                     }

@@ -293,6 +293,9 @@
         background-color: #fff;
         margin: -110px 0px 0px -30px;
         padding: 30px 90px 30px 30px;
+        @include breakpoint(small) {
+            margin: -110px 0px 0px 0px;
+        }
         .author {
             color: $blue;
             margin: 0px;
