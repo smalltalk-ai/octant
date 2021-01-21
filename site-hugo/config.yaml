@@ -24,7 +24,7 @@ params:
   twitter_url: "https://twitter.com/projectoctant"
   github_url: "https://github.com/vmware-tanzu/octant"
   slack_url: "https://kubernetes.slack.com/app_redirect?channel=CM37M9FCG"
-  rss_url: "https://octant.dev/feed.xml"
+  rss_url: "/feed.xml"
   github_base_url: "https://github.com/vmware-tanzu/octant"
   use_advanced_docs: false
   docs_right_sidebar: true
