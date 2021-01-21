@@ -6,7 +6,7 @@ author: Isha Bagha
 author_name: Isha Bagha
 author_avatar: /img/contributors/isha-bagha.jpg
 categories: ['kubernetes']
-tags: ['survey']
+tags: ['survey', 'Isha Bagha']
 date: 2020-11-19
 ---
 
