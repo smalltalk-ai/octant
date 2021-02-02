@@ -48,7 +48,7 @@ require (
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/viper v1.7.1
 	github.com/stoewer/go-strcase v1.2.0
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	go.opencensus.io v0.22.5
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0
