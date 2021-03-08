@@ -46,3 +46,5 @@ outputFormats:
   RSS:
     mediatype: "application/rss"
     baseName: "feed"
+permalinks:
+  posts: /:slug

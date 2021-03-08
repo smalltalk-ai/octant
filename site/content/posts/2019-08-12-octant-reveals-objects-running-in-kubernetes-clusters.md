@@ -9,7 +9,7 @@ categories: ['kubernetes']
 # Tag should match author to drive author pages
 tags: ['Bryan Liles']
 date: 2019-08-12
-
+slug: octant-reveals-objects-running-in-kubernetes-clusters
 ---
 In a perfect world, you would deploy applications to clusters and nothing else would be a problem. In the Kubernetes world, it isn’t that simple yet. Because Kubernetes workloads are composed of multiple objects, even simple actions can be complex. This complexity is why we created and open sourced [Octant](https://github.com/vmware-tanzu/octant), a developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster on which applications reside. [Check out Octant on GitHub](https://github.com/vmware-tanzu/octant).
 
