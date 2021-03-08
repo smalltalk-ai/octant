@@ -8,6 +8,7 @@ author_avatar: /img/contributors/isha-bagha.jpg
 categories: ['kubernetes']
 tags: ['survey', 'Isha Bagha']
 date: 2020-11-19
+slug: octant-2020-community-survey-summary
 ---
 
 Not too long ago, we set out to learn more about the Octant community. To do so, we shared the first [Octant Community survey](/octant-community-survey) and received 13 responses. It’s not a vast sample size, but we were able to find patterns on how Octant is used and how it could be improved. Here, we want to share our findings.

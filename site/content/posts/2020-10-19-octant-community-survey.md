@@ -8,6 +8,7 @@ author_avatar: /img/contributors/isha-bagha.jpg
 categories: ['kubernetes']
 tags: ['survey', 'Isha Bagha']
 date: 2020-10-19
+slug: octant-community-survey
 ---
 # Octant User Survey
 ## The Octant user survey is here! 
